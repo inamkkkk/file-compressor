@@ -1,0 +1,24 @@
+{
+  "name": "file-compressor",
+  "version": "1.0.0",
+  "description": "A CLI tool for compressing and decompressing files.",
+  "main": "server.js",
+  "bin": {
+    "compressor": "server.js"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "compress",
+    "decompress",
+    "gzip",
+    "cli",
+    "node.js"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tar": "^6.1.15"
+  }
+}
